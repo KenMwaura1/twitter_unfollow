@@ -4,9 +4,8 @@ import pandas as pd
 from datetime import datetime, timedelta
 from environs import Env
 
-env = Env(
-    DEBUG=(bool, False)
-)
+env = Env()
+
 # Reading the .env file
 env.read_env()
 
