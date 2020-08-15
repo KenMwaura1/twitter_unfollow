@@ -1,4 +1,4 @@
-import os
+
 import tweepy
 import pandas as pd
 from datetime import datetime, timedelta
@@ -14,7 +14,7 @@ API_KEY_SECRET = env('API_KEY_SECRET')
 ACCESS_TOKEN = env('ACCESS_TOKEN')
 ACCESS_TOKEN_SECRET = env('ACCESS_TOKEN_SECRET')
 
-USER = "YOUR USER GOES HERE"
+USER = env('USER')
 
 """ Any user you're following that hasn't posted during the DAYS_WITHOUT ACTIVITY
 will be unfollowed """
