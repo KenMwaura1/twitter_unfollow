@@ -1,4 +1,6 @@
 # Twitter Unfollow Script
+![-made%20with%20python-brightgreen?style=for-the-badge&logo=python](https://img.shields.io/badge/-made%20with%20python-brightgreen?style=for-the-badge&logo=python) ![PyPI - License](https://img.shields.io/pypi/l/py?style=plastic)  ![Twitter URL](https://img.shields.io/twitter/url?style=social&url=https%3A%2F%2Ftwitter.com%2FKen_Mwaura1)
+
 Utilizing tweepy to access your twitter account and check accounts that you follow and dont post frequently.
 
 The script goes ahead to unfollow the accounts
